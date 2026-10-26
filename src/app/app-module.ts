@@ -9,6 +9,8 @@ import { PadreCochesComponent } from './components/padre-coches-component/padre-
 import { HijoCocheComponent } from './components/hijo-coche-component/hijo-coche-component';
 import { DeporteComponent } from './components/deporte-component/deporte-component';
 import { PadreDeportesComponent } from './components/padre-deportes-component/padre-deportes-component';
+import { PadreNumerosComponent } from './components/padre-numeros-component/padre-numeros-component';
+import { HijoNumerosComponent } from './components/hijo-numeros-component/hijo-numeros-component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { PadreDeportesComponent } from './components/padre-deportes-component/pa
     HijoCocheComponent,
     DeporteComponent,
     PadreDeportesComponent,
+    PadreNumerosComponent,
+    HijoNumerosComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [provideBrowserGlobalErrorListeners()],

@@ -1,0 +1,9 @@
+<h1>Padre Números</h1>
+  <h2 style="background-color: yellow;">{{mensaje}}</h2>
+  <button (click)="generarRandom()">Generar Numeros</button>
+  @for (num of numerosRand; track num) {
+      <app-hijo-numeros-component 
+      (sumarNumerosPadre)="sumarNumerosPadre($event)"
+      [numeros]="num"> 
+      </app-hijo-numeros-component>
+  }
